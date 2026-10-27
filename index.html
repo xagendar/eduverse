@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>EDUVERSE | Ujian GitHub Pages</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 24px; background: #f6f8fb; color: #1b2430; }
+    main { max-width: 520px; margin: 0 auto; }
+    h1 { font-size: 1.5rem; }
+    .kad { background: #fff; border-radius: 12px; padding: 16px; margin: 12px 0; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+    .ok { color: #1a7f37; font-weight: 600; }
+    .gagal { color: #b3261e; font-weight: 600; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>EDUVERSE: ujian GitHub Pages</h1>
+  <div class="kad">Halaman ini dimuatkan. <span class="ok">Hosting berfungsi.</span></div>
+  <div class="kad" id="hasil">Memeriksa fail data...</div>
+</main>
+<script>
+  const hasil = document.getElementById('hasil');
+  fetch('data/unit/T1-MT-B01-U01.json')
+    .then(function (r) {
+      if (!r.ok) { throw new Error('Status ' + r.status); }
+      return r.json();
+    })
+    .then(function (unit) {
+      hasil.innerHTML = '<span class="ok">Fail data berjaya dimuatkan.</span><br>' +
+        'Unit: ' + unit.tajuk + '<br>Bilangan blok: ' + unit.blok.length;
+    })
+    .catch(function (err) {
+      hasil.innerHTML = '<span class="gagal">Fail data gagal dimuatkan.</span><br>' +
+        'Semak laluan folder data/unit/. Butiran: ' + err.message;
+    });
+</script>
+</body>
+</html>
