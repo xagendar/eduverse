@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "unit": "T1-MT-B01-U01",
+    "versi": 1,
+    "catatan": "Pilihan jawapan dikocok semasa paparan. Soalan layakArena hanya aktif dalam Arena selepas kemahiran berkaitan dikuasai."
+  },
+  "soalan": [
+    {
+      "id": "Q01",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "bilang",
+      "bank": "cerita",
+      "kemahiran": "MT-NUM-01",
+      "kesukaran": 1,
+      "arahan": "Berapa buah epal?",
+      "audioArahan": [
+        "AC01"
+      ],
+      "paparan": {
+        "objek": "epal",
+        "bilangan": 3
+      },
+      "cerita": "Ibu letak epal dalam bakul.",
+      "pilihan": [
+        2,
+        3,
+        4
+      ],
+      "betul": 3,
+      "penjelasan": "bilang-berwarna",
+      "layakArena": false
+    },
+    {
+      "id": "Q02",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "bilang",
+      "bank": "penilaian",
+      "kemahiran": "MT-NUM-01",
+      "kesukaran": 1,
+      "arahan": "Berapa ekor ikan?",
+      "audioArahan": [
+        "AR04"
+      ],
+      "paparan": {
+        "objek": "ikan",
+        "bilangan": 5
+      },
+      "pilihan": [
+        4,
+        5,
+        6
+      ],
+      "betul": 5,
+      "penjelasan": "bilang-berwarna",
+      "layakArena": false
+    },
+    {
+      "id": "Q03",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "bilang",
+      "bank": "cerita",
+      "kemahiran": "MT-NUM-01",
+      "kesukaran": 1,
+      "arahan": "Berapa kasut?",
+      "audioArahan": [
+        "AC03"
+      ],
+      "paparan": {
+        "objek": "kasut",
+        "bilangan": 2
+      },
+      "cerita": "Di tepi pintu ada kasut.",
+      "pilihan": [
+        1,
+        2,
+        3
+      ],
+      "betul": 2,
+      "penjelasan": "bilang-berwarna",
+      "layakArena": false
+    },
+    {
+      "id": "Q04",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "bilang",
+      "bank": "cerita",
+      "kemahiran": "MT-NUM-01",
+      "kesukaran": 2,
+      "arahan": "Berapa ekor burung?",
+      "audioArahan": [
+        "AC04"
+      ],
+      "paparan": {
+        "objek": "burung",
+        "bilangan": 7
+      },
+      "cerita": "Burung hinggap di dahan.",
+      "pilihan": [
+        6,
+        7,
+        8
+      ],
+      "betul": 7,
+      "penjelasan": "bilang-berwarna",
+      "layakArena": false
+    },
+    {
+      "id": "Q05",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "bilang",
+      "bank": "penilaian",
+      "kemahiran": "MT-NUM-01",
+      "kesukaran": 2,
+      "arahan": "Berapa buah buku?",
+      "audioArahan": [
+        "AR04"
+      ],
+      "paparan": {
+        "objek": "buku",
+        "bilangan": 9
+      },
+      "pilihan": [
+        8,
+        9,
+        10
+      ],
+      "betul": 9,
+      "penjelasan": "bilang-berwarna",
+      "layakArena": false
+    },
+    {
+      "id": "Q06",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "bilang",
+      "bank": "cabaran",
+      "kemahiran": "MT-NUM-01",
+      "kesukaran": 2,
+      "arahan": "Berapa biji bintang?",
+      "audioArahan": [
+        "AR04"
+      ],
+      "paparan": {
+        "objek": "bintang",
+        "bilangan": 10,
+        "susun": {
+          "baris": 2,
+          "lajur": 5
+        }
+      },
+      "pilihan": [
+        8,
+        9,
+        10
+      ],
+      "betul": 10,
+      "penjelasan": "bilang-berwarna",
+      "layakArena": false
+    },
+    {
+      "id": "Q07",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "dengar-angka",
+      "bank": "pemulihan",
+      "kemahiran": "MT-NUM-02",
+      "kesukaran": 1,
+      "arahan": "Ketik angka yang betul.",
+      "audioArahan": [
+        "AR05",
+        "N01"
+      ],
+      "paparan": {
+        "audioNombor": 1
+      },
+      "pilihan": [
+        1,
+        4,
+        7
+      ],
+      "betul": 1,
+      "penjelasan": "angka-dan-sebutan",
+      "layakArena": true
+    },
+    {
+      "id": "Q08",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "dengar-angka",
+      "bank": "penilaian",
+      "kemahiran": "MT-NUM-02",
+      "kesukaran": 1,
+      "arahan": "Ketik angka yang betul.",
+      "audioArahan": [
+        "AR05",
+        "N04"
+      ],
+      "paparan": {
+        "audioNombor": 4
+      },
+      "pilihan": [
+        2,
+        4,
+        6
+      ],
+      "betul": 4,
+      "penjelasan": "angka-dan-sebutan",
+      "layakArena": false
+    },
+    {
+      "id": "Q09",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "dengar-angka",
+      "bank": "cabaran",
+      "kemahiran": "MT-NUM-02",
+      "kesukaran": 2,
+      "arahan": "Ketik angka yang betul.",
+      "audioArahan": [
+        "AR05",
+        "N06"
+      ],
+      "paparan": {
+        "audioNombor": 6
+      },
+      "pilihan": [
+        5,
+        6,
+        9
+      ],
+      "betul": 6,
+      "penjelasan": "angka-dan-sebutan",
+      "layakArena": true
+    },
+    {
+      "id": "Q10",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "dengar-angka",
+      "bank": "pemulihan",
+      "kemahiran": "MT-NUM-02",
+      "kesukaran": 2,
+      "arahan": "Ketik angka yang betul.",
+      "audioArahan": [
+        "AR05",
+        "N08"
+      ],
+      "paparan": {
+        "audioNombor": 8
+      },
+      "pilihan": [
+        3,
+        8,
+        10
+      ],
+      "betul": 8,
+      "penjelasan": "angka-dan-sebutan",
+      "layakArena": true
+    },
+    {
+      "id": "Q11",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "dengar-angka",
+      "bank": "penilaian",
+      "kemahiran": "MT-NUM-02",
+      "kesukaran": 2,
+      "arahan": "Ketik angka yang betul.",
+      "audioArahan": [
+        "AR05",
+        "N10"
+      ],
+      "paparan": {
+        "audioNombor": 10
+      },
+      "pilihan": [
+        1,
+        10,
+        9
+      ],
+      "betul": 10,
+      "penjelasan": "angka-dan-sebutan",
+      "layakArena": false
+    },
+    {
+      "id": "Q12",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "padan-kuantiti",
+      "bank": "penilaian",
+      "kemahiran": "MT-NUM-03",
+      "kesukaran": 2,
+      "arahan": "Padankan angka dengan gambar.",
+      "audioArahan": [
+        "AR07"
+      ],
+      "paparan": {
+        "angka": 4,
+        "objek": "bunga"
+      },
+      "pilihan": [
+        3,
+        4,
+        5
+      ],
+      "betul": 4,
+      "penjelasan": "garis-padan",
+      "layakArena": false
+    },
+    {
+      "id": "Q13",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "padan-kuantiti",
+      "bank": "cabaran",
+      "kemahiran": "MT-NUM-03",
+      "kesukaran": 2,
+      "arahan": "Padankan angka dengan gambar.",
+      "audioArahan": [
+        "AR07"
+      ],
+      "paparan": {
+        "angka": 8,
+        "objek": "belon"
+      },
+      "pilihan": [
+        7,
+        8,
+        9
+      ],
+      "betul": 8,
+      "penjelasan": "garis-padan",
+      "layakArena": true
+    },
+    {
+      "id": "Q14",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "seret-kumpul",
+      "bank": "pemulihan",
+      "kemahiran": "MT-NUM-03",
+      "kesukaran": 2,
+      "arahan": "Letak 6 telur dalam bakul.",
+      "audioArahan": [
+        "AR06"
+      ],
+      "paparan": {
+        "objek": "telur",
+        "sasaran": 6,
+        "bekalan": 8
+      },
+      "betul": 6,
+      "penjelasan": "bilang-berwarna",
+      "layakArena": false
+    },
+    {
+      "id": "Q15",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "padan-titik",
+      "bank": "pemulihan",
+      "kemahiran": "MT-NUM-03",
+      "kesukaran": 3,
+      "arahan": "Ketik angka yang sama dengan titik.",
+      "audioArahan": [
+        "AR07"
+      ],
+      "paparan": {
+        "kadTitik": 9
+      },
+      "pilihan": [
+        6,
+        8,
+        9
+      ],
+      "betul": 9,
+      "penjelasan": "garis-padan",
+      "layakArena": true
+    },
+    {
+      "id": "Q16",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "padan-kuantiti",
+      "bank": "penilaian",
+      "kemahiran": "MT-NUM-03",
+      "kesukaran": 3,
+      "arahan": "Padankan angka dengan gambar.",
+      "audioArahan": [
+        "AR07"
+      ],
+      "paparan": {
+        "angka": 10,
+        "objek": "bintang"
+      },
+      "pilihan": [
+        8,
+        9,
+        10
+      ],
+      "betul": 10,
+      "penjelasan": "garis-padan",
+      "layakArena": false
+    },
+    {
+      "id": "Q17",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "nombor-hilang",
+      "bank": "penilaian",
+      "kemahiran": "MT-NUM-04",
+      "kesukaran": 2,
+      "arahan": "Nombor apa yang hilang?",
+      "audioArahan": [
+        "AR09"
+      ],
+      "paparan": {
+        "urutan": [
+          1,
+          2,
+          null,
+          4
+        ]
+      },
+      "pilihan": [
+        3,
+        5,
+        6
+      ],
+      "betul": 3,
+      "penjelasan": "garis-nombor",
+      "layakArena": false
+    },
+    {
+      "id": "Q18",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "nombor-hilang",
+      "bank": "cabaran",
+      "kemahiran": "MT-NUM-04",
+      "kesukaran": 2,
+      "arahan": "Nombor apa yang hilang?",
+      "audioArahan": [
+        "AR09"
+      ],
+      "paparan": {
+        "urutan": [
+          5,
+          6,
+          null,
+          8
+        ]
+      },
+      "pilihan": [
+        4,
+        7,
+        9
+      ],
+      "betul": 7,
+      "penjelasan": "garis-nombor",
+      "layakArena": true
+    },
+    {
+      "id": "Q19",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "susun",
+      "bank": "penilaian",
+      "kemahiran": "MT-NUM-04",
+      "kesukaran": 3,
+      "arahan": "Susun nombor dari yang kecil ke yang besar.",
+      "audioArahan": [
+        "AR10"
+      ],
+      "paparan": {
+        "item": [
+          7,
+          2,
+          9,
+          5
+        ]
+      },
+      "betul": [
+        2,
+        5,
+        7,
+        9
+      ],
+      "penjelasan": "garis-nombor",
+      "layakArena": false
+    },
+    {
+      "id": "Q20",
+      "unit": "T1-MT-B01-U01",
+      "jenis": "selepas",
+      "bank": "cabaran",
+      "kemahiran": "MT-NUM-04",
+      "kesukaran": 3,
+      "arahan": "Nombor selepas 9 ialah apa?",
+      "audioArahan": [
+        "AR19"
+      ],
+      "paparan": {
+        "nombor": 9
+      },
+      "pilihan": [
+        8,
+        10,
+        1
+      ],
+      "betul": 10,
+      "penjelasan": "garis-nombor",
+      "layakArena": true
+    }
+  ]
+}

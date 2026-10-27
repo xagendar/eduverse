@@ -1,0 +1,33 @@
+{
+  "versi": "0.1",
+  "kemahiran": [
+    {
+      "id": "MT-NUM-01",
+      "subjek": "MT",
+      "darjah": 1,
+      "nama": "Bilang objek hingga 10",
+      "penerangan": "Membilang objek dan menyebut bilangannya (1 hingga 10)."
+    },
+    {
+      "id": "MT-NUM-02",
+      "subjek": "MT",
+      "darjah": 1,
+      "nama": "Kenal angka 1 hingga 10",
+      "penerangan": "Mengenal pasti dan menyebut angka 1 hingga 10."
+    },
+    {
+      "id": "MT-NUM-03",
+      "subjek": "MT",
+      "darjah": 1,
+      "nama": "Padan angka dengan kuantiti",
+      "penerangan": "Memadankan angka dengan kumpulan objek yang betul."
+    },
+    {
+      "id": "MT-NUM-04",
+      "subjek": "MT",
+      "darjah": 1,
+      "nama": "Susun nombor 1 hingga 10",
+      "penerangan": "Menyusun nombor mengikut urutan dan melengkapkan rangkaian nombor."
+    }
+  ]
+}

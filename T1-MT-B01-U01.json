@@ -1,0 +1,389 @@
+{
+  "id": "T1-MT-B01-U01",
+  "tajuk": "Kenali 1 hingga 10",
+  "kumpulan": "KSSR",
+  "subjek": "MT",
+  "darjah": 1,
+  "bab": "T1-MT-B01",
+  "templat": "matematik",
+  "versi": 1,
+  "status": "terbit",
+  "bahasaPengantar": "ms",
+  "objektif": [
+    "Membilang objek hingga 10.",
+    "Mengenal dan menyebut angka 1 hingga 10.",
+    "Memadankan angka dengan kuantiti."
+  ],
+  "rujukanStandard": "DSKP Matematik Tahun 1, SP 1.2.1 (sahkan nombor tepat)",
+  "kemahiran": [
+    "MT-NUM-01",
+    "MT-NUM-02",
+    "MT-NUM-03",
+    "MT-NUM-04"
+  ],
+  "tpSasaran": "TP1-TP3",
+  "anggaranMinit": 14,
+  "prasyarat": [],
+  "perluSemakanPakar": false,
+  "disemakOleh": null,
+  "objekSet": {
+    "1": {
+      "nama": "bola",
+      "emoji": "⚽"
+    },
+    "2": {
+      "nama": "kasut",
+      "emoji": "👟"
+    },
+    "3": {
+      "nama": "epal",
+      "emoji": "🍎"
+    },
+    "4": {
+      "nama": "bunga",
+      "emoji": "🌸"
+    },
+    "5": {
+      "nama": "ikan",
+      "emoji": "🐟"
+    },
+    "6": {
+      "nama": "telur",
+      "emoji": "🥚"
+    },
+    "7": {
+      "nama": "burung",
+      "emoji": "🐦"
+    },
+    "8": {
+      "nama": "belon",
+      "emoji": "🎈"
+    },
+    "9": {
+      "nama": "buku",
+      "emoji": "📘"
+    },
+    "10": {
+      "nama": "bintang",
+      "emoji": "⭐"
+    }
+  },
+  "peraturan": {
+    "lulusPenilaian": {
+      "betulMin": 6,
+      "daripada": 8
+    },
+    "penguasaanKemahiran": {
+      "dikuasai": {
+        "ketepatanMin": 0.8,
+        "cubaanMin": 5
+      },
+      "sedangBelajar": {
+        "cubaanMin": 3
+      }
+    },
+    "blokWajib": [
+      "B1",
+      "B2",
+      "B4",
+      "B6"
+    ],
+    "latihWajibBilangan": 2,
+    "tiadaKunciMurid": true
+  },
+  "xp": {
+    "maksimumPenyelesaianPertama": 105,
+    "ulangan": {
+      "peratus": 0.25,
+      "hadSehari": 1
+    },
+    "syaratKetepatanMin": 0.5
+  },
+  "audio": {
+    "mula": "AR01",
+    "penilaianMula": "AR15",
+    "cabaranMula": "AR14",
+    "betul": "AR12",
+    "hampirBetul": "AR13",
+    "ulang": "AR11",
+    "lulus": "AR16",
+    "belumLulus": "AR17",
+    "tamat": "AR18"
+  },
+  "blok": [
+    {
+      "id": "B1",
+      "jenis": "kad-konsep",
+      "mod": "bilang-auto",
+      "tajuk": "Kenal Konsep",
+      "wajib": true,
+      "xp": 10,
+      "audioArahan": [
+        "AR02"
+      ],
+      "kad": [
+        {
+          "nombor": 1,
+          "audioSebutan": "N01"
+        },
+        {
+          "nombor": 2,
+          "audioSebutan": "N02"
+        },
+        {
+          "nombor": 3,
+          "audioSebutan": "N03"
+        },
+        {
+          "nombor": 4,
+          "audioSebutan": "N04"
+        },
+        {
+          "nombor": 5,
+          "audioSebutan": "N05"
+        },
+        {
+          "nombor": 6,
+          "audioSebutan": "N06"
+        },
+        {
+          "nombor": 7,
+          "audioSebutan": "N07"
+        },
+        {
+          "nombor": 8,
+          "audioSebutan": "N08"
+        },
+        {
+          "nombor": 9,
+          "audioSebutan": "N09"
+        },
+        {
+          "nombor": 10,
+          "audioSebutan": "N10"
+        }
+      ],
+      "penutup": {
+        "garisNombor": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "id": "B2",
+      "jenis": "kad-konsep",
+      "mod": "ketik-bilang",
+      "tajuk": "Contoh Bergambar",
+      "wajib": true,
+      "xp": 5,
+      "audioArahan": [
+        "AR03"
+      ],
+      "item": [
+        {
+          "nombor": 4
+        },
+        {
+          "nombor": 7
+        },
+        {
+          "nombor": 10,
+          "susun": {
+            "baris": 2,
+            "lajur": 5
+          }
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "jenis": "latihan",
+      "tajuk": "Latih",
+      "wajib": false,
+      "xp": 30,
+      "xpSetiapAktiviti": 10,
+      "wajibBilangan": 2,
+      "aktiviti": [
+        {
+          "id": "A01",
+          "jenis": "padan",
+          "tajuk": "Padan",
+          "audioArahan": [
+            "AR07"
+          ],
+          "pusingan": [
+            {
+              "angka": 2,
+              "pilihan": [
+                2,
+                3,
+                5
+              ]
+            },
+            {
+              "angka": 4,
+              "pilihan": [
+                3,
+                4,
+                5
+              ]
+            },
+            {
+              "angka": 1,
+              "pilihan": [
+                1,
+                2,
+                4
+              ]
+            },
+            {
+              "angka": 7,
+              "pilihan": [
+                6,
+                7,
+                9
+              ]
+            },
+            {
+              "angka": 10,
+              "pilihan": [
+                8,
+                9,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "id": "A02",
+          "jenis": "seret-kumpul",
+          "tajuk": "Seret dan Lepas",
+          "audioArahan": [
+            "AR06"
+          ],
+          "pusingan": [
+            {
+              "sasaran": 3,
+              "bekalan": 5
+            },
+            {
+              "sasaran": 5,
+              "bekalan": 7
+            },
+            {
+              "sasaran": 6,
+              "bekalan": 8
+            },
+            {
+              "sasaran": 8,
+              "bekalan": 10
+            },
+            {
+              "sasaran": 10,
+              "bekalan": 12
+            }
+          ],
+          "alternatifKetik": true
+        },
+        {
+          "id": "A03",
+          "jenis": "memory",
+          "tajuk": "Memory Match",
+          "audioArahan": [
+            "AR08"
+          ],
+          "tahap": [
+            {
+              "pasangan": [
+                2,
+                3,
+                5
+              ]
+            },
+            {
+              "pasangan": [
+                6,
+                8,
+                9,
+                10
+              ]
+            }
+          ],
+          "kiraDetik": false,
+          "hadCubaan": null
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "jenis": "kuiz",
+      "mod": "cerita",
+      "tajuk": "Masalah Cerita",
+      "wajib": true,
+      "xp": 15,
+      "soalan": [
+        "Q01",
+        "Q03",
+        "Q04"
+      ],
+      "maklumBalas": "serta-merta"
+    },
+    {
+      "id": "B5",
+      "jenis": "cabaran",
+      "tajuk": "Cabaran",
+      "wajib": false,
+      "xp": 15,
+      "audioArahan": [
+        "AR14"
+      ],
+      "soalan": [
+        "Q06",
+        "Q09",
+        "Q13",
+        "Q18",
+        "Q20"
+      ],
+      "maklumBalas": "serta-merta",
+      "kiraDetik": false,
+      "mempengaruhiLulus": false
+    },
+    {
+      "id": "B6",
+      "jenis": "penilaian",
+      "tajuk": "Penilaian",
+      "wajib": true,
+      "xp": 30,
+      "audioArahan": [
+        "AR15"
+      ],
+      "soalan": [
+        "Q02",
+        "Q05",
+        "Q08",
+        "Q11",
+        "Q12",
+        "Q16",
+        "Q17",
+        "Q19"
+      ],
+      "maklumBalas": "akhir",
+      "kocokPilihan": true,
+      "bankPemulihan": [
+        "Q07",
+        "Q10",
+        "Q14",
+        "Q15"
+      ]
+    }
+  ]
+}

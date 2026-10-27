@@ -1,0 +1,199 @@
+{
+  "versi": "0.1",
+  "catatan": "Rakam setiap klip sebagai MP3 dan letak dalam folder audio/. Selagi fail belum ada, prototaip boleh guna suara sintesis pelayar (bahasa ms-MY) menggunakan medan teks, tetapi suara itu mungkin tiada pada sesetengah telefon.",
+  "bahasaFallback": "ms-MY",
+  "klip": [
+    {
+      "id": "N01",
+      "teks": "satu",
+      "fail": "audio/N01.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N02",
+      "teks": "dua",
+      "fail": "audio/N02.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N03",
+      "teks": "tiga",
+      "fail": "audio/N03.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N04",
+      "teks": "empat",
+      "fail": "audio/N04.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N05",
+      "teks": "lima",
+      "fail": "audio/N05.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N06",
+      "teks": "enam",
+      "fail": "audio/N06.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N07",
+      "teks": "tujuh",
+      "fail": "audio/N07.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N08",
+      "teks": "lapan",
+      "fail": "audio/N08.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N09",
+      "teks": "sembilan",
+      "fail": "audio/N09.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "N10",
+      "teks": "sepuluh",
+      "fail": "audio/N10.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR01",
+      "teks": "Mari kita belajar mengira!",
+      "fail": "audio/AR01.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR02",
+      "teks": "Ini nombor",
+      "fail": "audio/AR02.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR03",
+      "teks": "Ketik gambar untuk mengira.",
+      "fail": "audio/AR03.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR04",
+      "teks": "Berapa banyak? Mari kira bersama.",
+      "fail": "audio/AR04.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR05",
+      "teks": "Ketik angka yang betul.",
+      "fail": "audio/AR05.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR06",
+      "teks": "Seret gambar ke dalam bakul.",
+      "fail": "audio/AR06.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR07",
+      "teks": "Padankan angka dengan gambar.",
+      "fail": "audio/AR07.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR08",
+      "teks": "Cari kad yang sama.",
+      "fail": "audio/AR08.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR09",
+      "teks": "Nombor apa yang hilang?",
+      "fail": "audio/AR09.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR10",
+      "teks": "Susun nombor dari yang kecil ke yang besar.",
+      "fail": "audio/AR10.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR11",
+      "teks": "Dengar sekali lagi.",
+      "fail": "audio/AR11.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR12",
+      "teks": "Bagus! Betul!",
+      "fail": "audio/AR12.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR13",
+      "teks": "Cuba lagi, hampir betul!",
+      "fail": "audio/AR13.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR14",
+      "teks": "Cabaran untuk kamu! Ambil masa kamu.",
+      "fail": "audio/AR14.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR15",
+      "teks": "Sekarang masa untuk tunjuk apa yang kamu tahu!",
+      "fail": "audio/AR15.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR16",
+      "teks": "Hebat! Kamu sudah kenal nombor satu hingga sepuluh!",
+      "fail": "audio/AR16.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR17",
+      "teks": "Tak apa. Mari kita berlatih lagi.",
+      "fail": "audio/AR17.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR18",
+      "teks": "Tahniah! Kamu dapat bintang!",
+      "fail": "audio/AR18.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AR19",
+      "teks": "Nombor selepas sembilan ialah apa?",
+      "fail": "audio/AR19.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AC01",
+      "teks": "Ibu letak epal dalam bakul. Berapa buah epal?",
+      "fail": "audio/AC01.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AC03",
+      "teks": "Di tepi pintu ada kasut. Berapa kasut?",
+      "fail": "audio/AC03.mp3",
+      "status": "belum-rakam"
+    },
+    {
+      "id": "AC04",
+      "teks": "Burung hinggap di dahan. Berapa ekor burung?",
+      "fail": "audio/AC04.mp3",
+      "status": "belum-rakam"
+    }
+  ]
+}

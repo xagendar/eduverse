@@ -1,0 +1,514 @@
+{
+  "versi": "0.1",
+  "catatan": "Rangka kurikulum EDUVERSE. Ketersediaan darjah ialah data dan boleh diubah. Status nod: kosong, draf, semak, terbit.",
+  "kumpulan": [
+    {
+      "id": "KSSR",
+      "nama": "KSSR",
+      "subjek": [
+        {
+          "kod": "BM",
+          "nama": "Bahasa Melayu",
+          "templat": "bahasa",
+          "bahasaPengantar": "ms",
+          "darjah": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "kod": "BI",
+          "nama": "Bahasa Inggeris",
+          "templat": "bahasa",
+          "bahasaPengantar": "en",
+          "darjah": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "kod": "MT",
+          "nama": "Matematik",
+          "templat": "matematik",
+          "bahasaPengantar": "ms",
+          "darjah": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "kod": "SN",
+          "nama": "Sains",
+          "templat": "sains",
+          "bahasaPengantar": "ms",
+          "darjah": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "kod": "SJ",
+          "nama": "Sejarah",
+          "templat": "cerita",
+          "bahasaPengantar": "ms",
+          "darjah": [
+            4,
+            5,
+            6
+          ]
+        },
+        {
+          "kod": "PI",
+          "nama": "Pendidikan Islam",
+          "templat": "agama",
+          "bahasaPengantar": "ms",
+          "darjah": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "laluanAgamaMoral": "PI"
+        },
+        {
+          "kod": "PM",
+          "nama": "Pendidikan Moral",
+          "templat": "agama",
+          "bahasaPengantar": "ms",
+          "darjah": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "laluanAgamaMoral": "PM"
+        }
+      ]
+    },
+    {
+      "id": "KAFA",
+      "nama": "KAFA",
+      "peringkat": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "subjek": [
+        {
+          "kod": "AQT",
+          "nama": "Al-Quran: Tilawah",
+          "templat": "tilawah"
+        },
+        {
+          "kod": "AQJ",
+          "nama": "Al-Quran: Tajwid",
+          "templat": "tajwid"
+        },
+        {
+          "kod": "AQH",
+          "nama": "Al-Quran: Hafazan",
+          "templat": "hafazan"
+        },
+        {
+          "kod": "JW",
+          "nama": "Jawi",
+          "templat": "huruf"
+        },
+        {
+          "kod": "BA",
+          "nama": "Bahasa Arab",
+          "templat": "kosa-kata"
+        },
+        {
+          "kod": "AK",
+          "nama": "Akidah",
+          "templat": "agama"
+        },
+        {
+          "kod": "IB",
+          "nama": "Ibadah",
+          "templat": "agama"
+        },
+        {
+          "kod": "SR",
+          "nama": "Sirah",
+          "templat": "cerita"
+        },
+        {
+          "kod": "AD",
+          "nama": "Adab",
+          "templat": "agama"
+        },
+        {
+          "kod": "AS",
+          "nama": "Amali Solat",
+          "templat": "amali"
+        }
+      ]
+    }
+  ],
+  "cabang": [
+    {
+      "id": "T1-MT",
+      "darjah": 1,
+      "subjek": "MT",
+      "status": "terbit",
+      "semakan": "disahkan-sebahagian",
+      "bab": [
+        {
+          "id": "T1-MT-B01",
+          "tajuk": "Nombor Bulat hingga 100",
+          "status": "terbit",
+          "unit": [
+            {
+              "id": "T1-MT-B01-U01",
+              "tajuk": "Kenali 1 hingga 10",
+              "status": "terbit",
+              "prasyarat": []
+            },
+            {
+              "id": "T1-MT-B01-U02",
+              "tajuk": "Tulis 0 hingga 10",
+              "status": "kosong",
+              "prasyarat": [
+                "T1-MT-B01-U01"
+              ]
+            },
+            {
+              "id": "T1-MT-B01-U03",
+              "tajuk": "Kombinasi Nombor",
+              "status": "kosong",
+              "prasyarat": [
+                "T1-MT-B01-U02"
+              ]
+            },
+            {
+              "id": "T1-MT-B01-U04",
+              "tajuk": "Kenali 11 hingga 20",
+              "status": "kosong",
+              "prasyarat": [
+                "T1-MT-B01-U03"
+              ]
+            },
+            {
+              "id": "T1-MT-B01-U05",
+              "tajuk": "Tulis 11 hingga 20",
+              "status": "kosong",
+              "prasyarat": [
+                "T1-MT-B01-U04"
+              ]
+            },
+            {
+              "id": "T1-MT-B01-U06",
+              "tajuk": "Kenali 21 hingga 100",
+              "status": "kosong",
+              "prasyarat": [
+                "T1-MT-B01-U05"
+              ]
+            },
+            {
+              "id": "T1-MT-B01-U07",
+              "tajuk": "Susunan Nombor",
+              "status": "kosong",
+              "prasyarat": [
+                "T1-MT-B01-U06"
+              ]
+            },
+            {
+              "id": "T1-MT-B01-U08",
+              "tajuk": "Pola Nombor",
+              "status": "kosong",
+              "prasyarat": [
+                "T1-MT-B01-U07"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "T1-MT-B02",
+          "tajuk": "Operasi Asas (Tambah dan Tolak)",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-MT-B03",
+          "tajuk": "Pecahan",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-MT-B04",
+          "tajuk": "Wang",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-MT-B05",
+          "tajuk": "Masa dan Waktu",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-MT-B06",
+          "tajuk": "Ukuran dan Sukatan, Ruang",
+          "status": "kosong",
+          "semakan": "belum-disahkan",
+          "unit": []
+        }
+      ]
+    },
+    {
+      "id": "T1-SN",
+      "darjah": 1,
+      "subjek": "SN",
+      "status": "kosong",
+      "semakan": "disahkan-semak-satu-unit-mungkin-tertinggal",
+      "bab": [
+        {
+          "id": "T1-SN-B01",
+          "tajuk": "Kemahiran Saintifik (Inkuiri dalam Sains)",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-SN-B02",
+          "tajuk": "Benda Hidup dan Benda Bukan Hidup",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-SN-B03",
+          "tajuk": "Manusia",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-SN-B04",
+          "tajuk": "Haiwan",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-SN-B05",
+          "tajuk": "Tumbuhan",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-SN-B06",
+          "tajuk": "Magnet",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-SN-B07",
+          "tajuk": "Penyerapan",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-SN-B08",
+          "tajuk": "Bumi",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-SN-B09",
+          "tajuk": "Asas Binaan",
+          "status": "kosong",
+          "unit": []
+        }
+      ]
+    },
+    {
+      "id": "T1-PI",
+      "darjah": 1,
+      "subjek": "PI",
+      "status": "kosong",
+      "semakan": "struktur-bidang-sahaja",
+      "bab": [
+        {
+          "id": "T1-PI-B01",
+          "tajuk": "Al-Quran",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-PI-B02",
+          "tajuk": "Hadis",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-PI-B03",
+          "tajuk": "Akidah",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-PI-B04",
+          "tajuk": "Ibadah",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-PI-B05",
+          "tajuk": "Sirah",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-PI-B06",
+          "tajuk": "Adab",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-PI-B07",
+          "tajuk": "Jawi",
+          "status": "kosong",
+          "unit": []
+        }
+      ]
+    },
+    {
+      "id": "T1-PM",
+      "darjah": 1,
+      "subjek": "PM",
+      "status": "kosong",
+      "semakan": "kosong-perlu-input-dskp",
+      "bab": []
+    },
+    {
+      "id": "T1-BM",
+      "darjah": 1,
+      "subjek": "BM",
+      "status": "kosong",
+      "semakan": "cadangan-perlu-semak-dskp",
+      "bab": [
+        {
+          "id": "T1-BM-B01",
+          "tajuk": "Huruf Vokal dan Bunyi",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BM-B02",
+          "tajuk": "Huruf Konsonan",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BM-B03",
+          "tajuk": "Suku Kata (KV dan KVK)",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BM-B04",
+          "tajuk": "Perkataan dan Frasa",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BM-B05",
+          "tajuk": "Ayat Mudah",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BM-B06",
+          "tajuk": "Bacaan dan Kefahaman",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BM-B07",
+          "tajuk": "Menulis",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BM-B08",
+          "tajuk": "Tatabahasa dan Seni Bahasa Asas",
+          "status": "kosong",
+          "unit": []
+        }
+      ]
+    },
+    {
+      "id": "T1-BI",
+      "darjah": 1,
+      "subjek": "BI",
+      "status": "kosong",
+      "semakan": "cadangan-perlu-semak-dskp",
+      "bab": [
+        {
+          "id": "T1-BI-B01",
+          "tajuk": "Letters and Sounds",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BI-B02",
+          "tajuk": "Blending (CVC Words)",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BI-B03",
+          "tajuk": "Vocabulary",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BI-B04",
+          "tajuk": "Simple Sentences",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BI-B05",
+          "tajuk": "Listening and Speaking",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BI-B06",
+          "tajuk": "Reading",
+          "status": "kosong",
+          "unit": []
+        },
+        {
+          "id": "T1-BI-B07",
+          "tajuk": "Writing",
+          "status": "kosong",
+          "unit": []
+        }
+      ]
+    }
+  ]
+}
